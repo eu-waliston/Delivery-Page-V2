@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: var(--font-color);
+    border-radius: 10px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --base-color: rgb(27, 36, 37);
+    --font-color: #2B90C7;
+    --text-color: rgb(241, 239, 239);
+}
+
+
+/* navbar */
+
+.logo {
+    width: 200px;
+    margin: 0;
+    position: relative;
+    top: -15px;
+}
+
+.menu {
+    overflow: hidden;
+    position: fixed;
+    /* Set the navbar to fixed position */
+    top: 0;
+    width: 100%;
+    /* Full width */
+}
+
+
+.nav-item {
+    float: right;
+    padding-right: 100px;
+}
+
+.itens {
+    position: relative;
+    margin-left: 50px;
+    top: 60px;
+    font-size: 22px;
+    text-decoration: none;
+    color: var(--text-color);
+    text-transform: uppercase;
+
+}
+
+.itens:hover {
+    color: var(--font-color);
+    transition: ease-in-out 0.4s;
+}
+
+
+
+/* home page */
+
+#home-page {
+    background-color: var(--base-color);
+    height: 100vh;
+    overflow: hidden;
+
+}
+
+#typed-h1 {
+    height: 100px;
+    width: 1040px;
+}
+
+#typed-line {
+    font-size: 35px;
+    color: var(--font-color);
+    font-weight: 500;
+    padding-left: 20%;
+    padding-top: 20%;
+    justify-content: center;
+    box-sizing: border-box;
+    position: relative;
+    font-weight: bolder;
+    margin-top: 15%;
+}
+
+#imagem-principal {
+    position: relative;
+    width: 30%;
+    float: right;
+    margin-top: 2%;
+    margin-right: 6%;
+}
+
+/* About US */
+
+#about-us {
+    height: 100vh;
+    background-color: var(--base-color);
+}
+
+.about-h1 {
+    text-align: center;
+    position: relative;
+    color: var(--text-color);
+    top: 15%;
+    font-size: 40px;
+}
+
+.msg {
+    margin-bottom: 15px;
+    font-weight: bolder;
+}
+
+.msg,
+.dv {
+    position: relative;
+    top: -5%;
+    text-align: center;
+    color: var(--text-color);
+}
+
+.about-img {
+    position: relative;
+    top: 5%;
+    left: 37%;
+}
+
+.BusinessDetails__List__Main {
+    display: grid;
+    list-style: none;
+    grid-template-columns: repeat(4, 230px);
+    align-items: center;
+    background-color: #2b90c731;
+    width: 1000px;
+    position: relative;
+    left: 23%;
+    top: 5%;
+
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.507);
+}
+
+.BusinessDetails__List {
+    position: relative;
+    text-align: center;
+    padding: 20px;
+    left: 30px; 
+    color: var(--text-color); 
+}
+
+
+.bi {
+    position: relative;
+    left: 5%;
+    font-size: 50px;
+    color: var(--text-color);
+}
+
+/* Contact US */
+
+#contact-us {
+    height: 100vh;
+    background-color: var(--base-color);
+}
+
+
+
+
+.block--things {
+    display: grid;
+    grid-template-columns: repeat(2, 280px);
+    list-style: none;
+    text-align: center;
+    color: var(--text-color);
+    text-transform: uppercase;
+    row-gap: 20px;
+    column-gap: 10px;
+    
+}
+
+li img {
+    border-radius: 10px;
+    border: 10px solid white;
+    
+}
