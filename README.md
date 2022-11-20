@@ -10,7 +10,7 @@
 https://wal-wizard.github.io/Delivery-Page-V2/#contact-us
 
 
-## But this projec need to be: 
+## But this project need to be: 
 
 - Responsive ( Coming Soon! )
 
