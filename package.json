@@ -2,14 +2,17 @@
   "name": "delivery-page-main",
   "version": "1.0.0",
   "description": "In this page, I only used HTML & CSS",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20",
     "typed.js": "^2.0.12"
   }
 }
